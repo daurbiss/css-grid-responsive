@@ -2,8 +2,7 @@
 
 ## What I learnt
 
-CSS Grid
-- two-dimensional grid-based layout
+CSS Grid: two-dimensional grid-based layout
 
 Terminology:
 - grid container: the parent of all grid items
@@ -14,21 +13,22 @@ Terminology:
 - grid area: any number of grid cells
 
 Properties of parent:
-- display: grid
 
-- grid-template-columns
-- grid-template-rows
-      can name them
-      number of rows/columns and length
-      1fr - a fraction of available space (e.g. 1fr 1fr 1fr - 3 columns/rows each a third of available space)
+display: grid
 
-- grid-template-areas - referencing names of the grid using grid-area property
-      grid-area - children property, used to name the grid cell/area
+grid-template-columns
+grid-template-rows
+- can name them
+- number of rows/columns and length
+- 1fr - a fraction of available space (e.g. 1fr 1fr 1fr - 3 columns/rows each a third of available space)
 
-- justify-items & align-items: aligns grid items
-    can also be achieved using justify-self property on individual grid items.
+grid-template-areas - referencing names of the grid using grid-area property
+- grid-area - children property, used to name the grid cell/area
 
-- justify-content & align-content: aligning the grid within grid container (when total grid size is smaller than grid container)
+justify-items & align-items: aligns grid items
+- can also be achieved using justify-self property on individual grid items.
+
+justify-content & align-content: aligning the grid within grid container (when total grid size is smaller than grid container)
 
 
 ## Useful resources:
